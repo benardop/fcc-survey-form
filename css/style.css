@@ -1,0 +1,108 @@
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(138, 138, 207, 0.9) ), url(https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dXJsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 300px;
+    width: 60vw;
+    background-color: #3b3b4f;
+    padding: 2em;  
+    color:#ffffff;
+    
+}
+
+h1, p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
+}
+
+ input, textarea, select {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 1px 2px;
+}
+
+
+fieldset {
+    border: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto 1.25rem auto;
+}
+
+ textarea {
+    background-color: #ffffff;
+    border: 1px solid #3b3b4f;
+    color: #ffffff;
+    min-height: 2em;
+}
+
+input[type="submit"] {
+    display: block;
+    min-width: 300px;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #008000;
+    width: 60%;
+    border-color: #ffffff;
+    margin: 1em auto;
+}
+
+.alignment {
+    display: flex;
+    flex-direction: row;
+}
+
+ .alignment input {
+    margin-top: 15px;
+    width: 5%;
+}
+
+.align-checkbox input {
+    margin-top: 15px;
+    width: 25px;
+}
+
+.large-radio, .large-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-width: 1.25em;
+    min-height: 1.25em;
+}
+
+#name, #email, #number {
+    width: 96%;
+    padding: 10px 10px;
+    padding-left: 10px;
+}
+
+.option-select {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.fieldset1{
+    line-height: 30px;
+}
